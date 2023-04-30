@@ -67,7 +67,6 @@ export default class View {
   }
 
   renderError(message = this._errorMessage) {
-    console.log(message);
     const markup = `<div class="error">
     <div>
       <svg>
